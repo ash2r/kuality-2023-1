@@ -17,7 +17,7 @@ int main(){
 
 위와 같이 길이가 10 이상인 문자열을 입력해 입력값이 다른 메모리 영역을 침범하여 `stack smashing detected`가 뜬 것을 볼 수 있다.
 
-이때 아래와 같이 scanf의 포맷스트링에 ``"%9s"`를 넣어 취약점을 방지할 수 있다.
+이때 아래와 같이 scanf의 포맷스트링에 `"%9s"`를 넣어 취약점을 방지할 수 있다.
 
 <img width="70%" alt="image" src="https://user-images.githubusercontent.com/127390688/226826182-302b94b6-46c9-4a20-841a-09fd3dde73f1.png">
 
